@@ -3,19 +3,6 @@ version = "1.0.0"
 dump_lua = true
 priority = 12
 
-# Burnt card extra card draw
-[[patches]]
-[patches.pattern]
-target = '''functions/state_events.lua'''
-pattern = "for i=1, hand_space do*"
-position = "at"
-payload = '''
-local draw = hand_space + (G.GAME.prism_extra_draw or 0)
-G.GAME.prism_extra_draw = 0
-for i=1, draw do
-'''
-match_indent = true
-
 #ice cards card count
 [[patches]]
 [patches.pattern]
