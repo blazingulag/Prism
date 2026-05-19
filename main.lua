@@ -82,6 +82,11 @@ function SMODS.current_mod.calculate(self, context)
 	if context.fix_probability and G.GAME and G.GAME.prism_fortune_cookie then
 		return {numerator = context.denominator}
 	end
+	if context.drawing_cards and G.GAME.prism_extra_draw > 0 then
+		local extra_draw = G.GAME.prism_extra_draw
+		G.GAME.prism_extra_draw = 0
+		return {modify = context.amount + extra_draw}
+	end
 end
 
 if G.PRISM.config.jokers_enabled then  SMODS.load_file('objects/jokers.lua')() end
