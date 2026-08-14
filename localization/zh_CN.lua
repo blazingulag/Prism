@@ -9,10 +9,10 @@ return {
                 },
             },
             j_prism_razor_blade = {
-                name = "剃刀锋刃",
+                name = "剃须刀片",
                 text = {"根据牌组中缺失的{C:attention}点数",
                     "获得{X:mult,C:white}X#1#{}倍率",
-                    "{C:inactive}(当前{X:mult,C:white}X#2#{C:inactive}倍率)"
+                    "{C:inactive}（当前{X:mult,C:white}X#2#{C:inactive}倍率）"
                 },
             },
             j_prism_harlequin = {
@@ -20,7 +20,7 @@ return {
                 text = {"当每种{C:attention}花色{}的",
                     "首张卡牌被计分时",
                     "此卡获得{X:mult,C:white}X#1#{}倍率",
-                    "{C:inactive}(当前{X:mult,C:white}X#2#{C:inactive}倍率)",
+                    "{C:inactive}（当前{X:mult,C:white}X#2#{C:inactive}倍率）",
                 },
                 unlock= {
                 "{E:1,s:1.3}?????",
@@ -30,7 +30,7 @@ return {
                 name = "里戈莱托",
                 text = {"每次{C:attention}出牌{}或{C:attention}弃牌{}后",
                     "本回合内{C:attention}+1{}手牌上限",
-                    "{C:inactive}(当前{C:attention}+#2#{C:inactive}手牌)",
+                    "{C:inactive}（当前{C:attention}+#2#{C:inactive}手牌）",
                 },
                 unlock= {
                 "{E:1,s:1.3}?????",
@@ -52,14 +52,14 @@ return {
                 name = "热气球",
                 text = {"每连续使用{C:attention}高牌{}时",
                     "获得{C:red}+#2#{}倍率",
-                    "{C:inactive}(当前{C:red}+#1#{C:inactive}倍率)"
+                    "{C:inactive}（当前{C:red}+#1#{C:inactive}倍率）"
                 },
             },
             j_prism_ghost = {
                 name = "通灵者",
                 text = {"每张使用的{C:spectral}幻灵牌{}",
                     "提供{C:chips}+#1#{}筹码",
-                    "{C:inactive}(当前{C:chips}+#2#{C:inactive}筹码)"
+                    "{C:inactive}（当前{C:chips}+#2#{C:inactive}筹码）"
                 },
             },
             j_prism_prism = {
@@ -72,7 +72,7 @@ return {
                 name = "吟游诗人",
                 text = {"选择{C:attention}盲注{}时",
                     "生成一张{C:myth_light}神话卡{}",
-                    "{C:inactive}(需有空位)",
+                    "{C:inactive}（需有空位）",
                 },
             },
             j_prism_happily = {
@@ -80,7 +80,7 @@ return {
                 text = {"若计分牌中",
                     "包含一张{C:attention}K{}和{C:attention}Q",
                     "则生成一张{C:myth_light}神话卡",
-                    "{C:inactive}(需有空位)",
+                    "{C:inactive}（需有空位）",
                 },
             },
             j_prism_geo_hammer = {
@@ -88,7 +88,7 @@ return {
                 text = {"回合开始时",
                     "将一张随机手牌变成",
                     "{C:attention}水晶牌{}或{C:attention}石化牌{}",
-                    "{C:inactive}(无视增强牌)"
+                    "{C:inactive}（无视增强牌）"
                 },
             },
             j_prism_vaquero = {
@@ -99,7 +99,7 @@ return {
                 },
             },
             j_prism_promotion = {
-                name = "晋升机制",
+                name = "升变",
                 text = {"若本回合{C:attention}首次出牌{}",
                     "只有{C:attention}1{}张牌,",
                     "则将其变为{C:attention}Q"
@@ -119,7 +119,7 @@ return {
                     "或{C:dark_edition}增强版本{}",
                     "则获得{C:chips}+#1#{}筹码",
                     "否则失去{C:chips}-#1#{}筹码",
-                    "{C:inactive}(当前{C:chips}+#2#{C:inactive}筹码)",
+                    "{C:inactive}（当前{C:chips}+#2#{C:inactive}筹码）",
                 },
             },
             j_prism_reverse_card = {
@@ -129,7 +129,7 @@ return {
                 },
             },
             j_prism_vip_pass = {
-                name = "Vip通行证",
+                name = "VIP通行证",
                 text = {"{C:chips}普通{C:attention}小丑",
                 "将不再出现",
                 },
@@ -148,7 +148,7 @@ return {
                 text = {"当有计分的{C:attention}#3#{}时",
                     "此牌获得{C:red}+#1#{}倍率",
                     "且需求点数{C:attention}+1{}",
-                    "{C:inactive}(当前{C:red}+#2#{C:inactive}倍率)"
+                    "{C:inactive}（当前{C:red}+#2#{C:inactive}倍率）"
                 },
             },
             j_prism_amethyst = {
@@ -156,11 +156,11 @@ return {
                 text = {"根据回合结束时手牌中",
                     "{C:attention}紫水晶牌{}的数量",
                     "获得{X:mult,C:white}X#2#{}倍率",
-                    "{C:inactive}(当前{X:mult,C:white}X#1#{C:inactive}倍率)"
+                    "{C:inactive}（当前{X:mult,C:white}X#1#{C:inactive}倍率）"
                 },
             },
             j_prism_aces_high = {
-                name = "亡牌飞行员",
+                name = "王牌飞行员",
                 text = {"若打出的牌中包含",
                     "一张{C:attention}A{}和{C:attention}顺子{}",
                     "则生成一个{C:green}罕见{C:green}标签{}",
@@ -168,7 +168,7 @@ return {
                 },
             },
             j_prism_elf = {
-                name = "精灵小丑",
+                name = "精灵",
                 text = {"若{C:attention}上回合{}结束后",
                     "使用过神话卡",
                     "则{X:mult,C:white}X#1#{}倍率 ",
@@ -188,12 +188,12 @@ return {
                     "获得{X:mult,C:white}X#2#{}倍率",
                     "之后所需点数变更为",
                     "圆周率{C:attention}π{}的下一位数字",
-                    "{C:inactive}(后续5位数字为:#3#)",
-                    "{C:inactive}(1 = A, 0 = 10)",
+                    "{C:inactive}（后续5位数字为:#3#）",
+                    "{C:inactive}（1 = A, 0 = 10）",
                 },
             },
             j_prism_polydactyly = {
-                name = "六指症",
+                name = "六指",
                 text = {"可打出和弃掉",
                     "最多{C:attention}6{}张牌"
                 },
@@ -209,15 +209,15 @@ return {
                 text = {"选择{C:attention}盲注{}时",
                     "失去所有金钱",
                     "每{C:money}$#2#{}获得{X:mult,C:white}X#1#{}倍率",
-                    "{C:inactive}(当前为{X:mult,C:white}X#3#{C:inactive}倍率)"
+                    "{C:inactive}（当前为{X:mult,C:white}X#3#{C:inactive}倍率）"
                 },
             },
             j_prism_whiskey = {
                 name = "威士忌",
                 text = {"当累计结算{C:attention}#1#{}张J后",
                     "生成一个{C:attention}双倍标签",
-                    "{C:inactive}(当前进度{C:attention}#2#{C:inactive}/#1#)",
-                    "{C:inactive}(每回合仅一次)"
+                    "{C:inactive}（当前进度{C:attention}#2#{C:inactive}/#1#）",
+                    "{C:inactive}（每回合仅一次）"
                 },
             },
             j_prism_hit_record = {
@@ -339,7 +339,7 @@ return {
                 name = "玻璃工匠",
                 text = {"打出的{C:attention}玻璃卡{}有",
                     "{C:green}#1#/#2#{}概率获得",
-                    "{C:dark_edition}镀金{}、{C:dark_edition}镭射{}",
+                    "{C:dark_edition}闪箔{}、{C:dark_edition}镭射{}",
                     "或{C:dark_edition}多彩{}版本"
                 },
             },
@@ -365,8 +365,39 @@ return {
                 "每个剩余的{C:attention}出牌次数{}",
                 "提供{C:chips}+#1#{}筹码",
                 "和{C:red}+#2#{}倍率",
-                "{C:inactive}(当前{C:chips}+#3#{C:inactive}筹码和{C:red}+#4#{C:inactive}倍率)"
+                "{C:inactive}（当前{C:chips}+#3#{C:inactive}筹码和{C:red}+#4#{C:inactive}倍率）"
                 },
+            },
+            j_prism_floppy = {
+                name = "软盘",
+                text = {"卖出此卡",
+                    "添加上次{C:attention}计分牌型{}",
+                    "中的一张牌到{C:attention}手牌",
+                },
+            },
+            j_prism_whale = {
+                name = "星际航行",
+                text = {"击败{C:attention}Boss盲注{}时",
+                    "在本轮底注每使用一张",
+                    "{C:attention}独特{}的{C:planet}星球牌{}",
+                    "升级一次你出牌最多的{C:attention}牌型{}",
+                    "{C:inactive}（当前使用{C:attention}#1#{C:inactive}星球牌）"
+                },
+            },
+            j_prism_monkey_paw = {
+                name = "猴爪",
+                text = {"击败{C:attention}Boss盲注{}时",
+                    "许愿获得{C:dark_edition}任意{C:spectral}幻灵牌{}",
+                    "但永久{C:red}-#1#{}手牌",
+                    "{C:inactive}（必须有空间）"
+                }
+            },
+            j_prism_scale = {
+                name = "平衡天平",
+                text = {"{C:attention}右侧{}每有一张小丑牌{C:chips}+#1#{}筹码",
+                    "{C:attention}左侧{}每有一张小丑牌{C:red}+#2#{}倍率",
+                    "{C:inactive}（当前{C:chips}+#3#{C:inactive}筹码且{C:red}+#4#{C:inactive} 倍率）"
+                }
             },
         },
         Back = {
@@ -374,7 +405,7 @@ return {
                 name = "紫色牌组",
                 text = {"可互换使用{C:chips}出牌{}和",
                     "{C:red}弃牌{}次数",
-                    "{C:inactive}当出牌用尽时可使用弃牌，",
+                    "{C:inactive}当出牌用尽时可使用弃牌",
                     "{C:inactive}反之亦然"
                 },
             },
@@ -390,6 +421,12 @@ return {
                 text = {"开局携带",
                     "{C:attention,T:v_overstock_norm}库存过剩{}与",
                     "{C:attention,T:v_reroll_surplus}多次重掷{}"
+                },
+            },
+            b_prism_alchemy = {
+                name = "炼金术士牌组",
+                text = {"每个{C:money}商店{}有一张",
+                    "{C:attention}额外的{C:myth_light,T:c_prism_myth_opus}巅峰之作{}",
                 },
             },
         },
@@ -433,6 +470,18 @@ return {
                     "{C:attention,T:v_prism_booster_box}补充包（箱装）{}"
                 },
             },
+            sleeve_prism_alchemysleeve = {
+                name = "炼金术士牌套",
+                text = {"每个{C:money}商店{}有一张",
+                    "{C:attention}额外的{C:myth_light,T:c_prism_myth_opus}巅峰之作{}",
+                },
+            },
+            sleeve_prism_alchemysleeve_alt = {
+                name = "炼金术士牌套",
+                text = {"开局拥有",
+                    "{C:tarot,T:v_crystal_ball}水晶球{}"
+                },
+            },
         },
         Enhanced = {
             m_prism_crystal = {
@@ -459,6 +508,12 @@ return {
                 text = {"根据其他已使用或保留的",
                     "{C:attention}回声卡{}数量",
                     "{C:attention}重复触发{}本卡效果"
+                }
+            },
+            m_prism_ice = {
+                name = "冰冻卡",
+                text = {"本回合每张牌{C:chips}+#1#{}筹码",
+                    "{C:inactive}（当前{C:chips}+#2#{C:inactive}）"
                 }
             },
         },
@@ -494,6 +549,13 @@ return {
                     "{C:attention}回声牌"
                 }
             },
+            c_prism_myth_yeti = {
+                name = "雪人",
+                text = {"增强{C:attention}#1#{}张",
+                    "选定卡牌成为",
+                    "{C:attention}冰冻卡"
+                }
+            },
             c_prism_myth_dragon = {
                 name = "巨龙",
                 text = {"增强{C:attention}#1#{}张",
@@ -501,13 +563,21 @@ return {
                     "{C:attention}烧灼卡"
                 }
             },
-            c_prism_myth_twin = {
-                name = "双子",
-                text = {"增强{C:attention}#1#{}张",
-                    "选定卡牌成为",
-                    "{C:attention}双子牌",
-                    "{C:inactive}(彼此转化)"
-                }
+            -- c_prism_myth_twin = {
+            --     name = "双子",
+            --     text = {
+            --         "创建{C:attention}#1#{}张",
+            --         "选定卡片的",
+            --         "随机{C:attention}点数{}副本",
+            --     },
+            -- },
+            c_prism_myth_ghoul = {
+                name = "尸鬼",
+                text = {
+                    "摧毁{C:attention}#1#{}张",
+                    "选定卡片并将它的点数",
+                    "加到{C:chips}筹码{}上{C:attention}#2#次",
+                },
             },
             c_prism_myth_wizard = {
                 name = "巫师",
@@ -531,14 +601,14 @@ return {
                 name = "巨像",
                 text = {"为手牌中的",
                     "{C:attention}#1#{}张选定卡牌",
-                    "添加{C:moon}月之印记{}"
+                    "添加{C:moon}月面蜡封{}"
                 }
             },
             c_prism_myth_beast = {
                 name = "吠兽",
                 text = {"生成一张随机的",
                     "{C:spectral}幻灵牌{}",
-                    "{C:inactive}(需有空位)"
+                    "{C:inactive}（需有空位）"
                 }
             },
             c_prism_myth_ooze = {
@@ -566,12 +636,27 @@ return {
                     "{C:attention}右侧{}牌的{C:attention}花色{}"
                 }
             },
+            c_prism_myth_fae = {
+                name = "妖精",
+                text = {"最高的{C:attention}牌型{}",
+                    "每提升一级{C:money}$#1#{}金钱",
+                    "{C:inactive}（最高{C:money}$#2#{C:inactive}）",
+                    "{C:inactive}（当前{C:money}$#3#{C:inactive}）",
+                }
+            },
+            c_prism_myth_opus = {
+                name = "巅峰制作",
+                text = {"增强{C:attention}#1#{}张",
+                    "选定卡牌为完整手牌中",
+                    "数量{C:attention}最多{}的{C:enhanced}增强牌{}"
+                }
+            },
             c_prism_myth_egg = {
                 name = "金蛋",
                 text = {"失去{C:money}$#3#{}",
                     "有{C:green}#1#/#2#{}的几率为",
                     "一张随机的小丑牌添加{C:dark_edition}镀金{}",
-                    "{C:inactive}(必须兼容)"                    
+                    "{C:inactive}（必须兼容）"                    
                 }
             },
         },
@@ -580,7 +665,7 @@ return {
                 name = "阿拉丁",
                 text = {"许愿生成{C:dark_edition}任意一张",
                     "{C:attention}小丑牌{}",
-                    "{C:inactive}(传奇小丑除外)",
+                    "{C:inactive}（传奇小丑除外）",
                 }
             },
         },
@@ -649,6 +734,44 @@ return {
                 }
             }
         },
+        Partner={
+            pnr_prism_blahaj={
+                name = "布罗艾",
+                text = {
+                    "在击败{C:attention}Boss盲注之后",
+                    "创建一个{C:dark_edition,T:tag_foil}闪箔标签",
+                    "{C:dark_edition,T:tag_holo}镭射标签{} or",
+                    "{C:dark_edition,T:tag_polychrome}多彩标签{}",
+                },
+                unlock={
+                    "使用{C:attention}暗渊巨鲨",
+                    "赢下{C:attention}金注",
+                },
+            },
+            pnr_prism_blahaj_1={
+                name = "布罗艾",
+                text = {
+                    "在击败{C:attention}盲注之后",
+                    "创建一个{C:dark_edition,T:tag_foil}闪箔标签",
+                    "{C:dark_edition,T:tag_holo}镭射标签{} or",
+                    "{C:dark_edition,T:tag_polychrome}多彩标签{} after",
+                },
+                unlock={
+                    "使用{C:attention}暗渊巨鲨",
+                    "赢下{C:attention}金注",
+                },
+            },
+            pnr_prism_scopa={
+                name = "扫帚",
+                text = {"使用{C:attention}增强卡牌{}",
+                    "计分时{C:red}+#1#{}倍率",
+                },
+                unlock={
+                    "使用{C:attention}异域卡牌",
+                    "赢下{C:attention}金注",
+                },
+            },
+        },
         Other = {
             p_prism_small_myth_1 = {
                 name = "小型传说包",
@@ -686,17 +809,17 @@ return {
                 }, 
             },
             prism_green_old_seal = {
-                name = "旧绿色蜡封",
+                name = "绿色蜡封",
                 text = {"{C:green}1/2{}的概率",
                     "在回合的{C:attention}初始手牌{}",
                     "自动登场"
                 },
             },
             prism_moon_seal = {
-                name = "月之印记",
+                name = "月面蜡封",
                 text = {
                     "打出并计分时",
-		    "{C:green}#1#/#2#{}的概率升级",
+                    "{C:green}#1#/#2#{}的概率升级",
                     "你打出的牌型"
                 },
             },
@@ -746,7 +869,7 @@ return {
                 },
             }
         },
-               --!!!DO NOT TRANSLATE THIS PART!!!--
+        --!!!DO NOT TRANSLATE THIS PART!!!--
         Mod = {
             Prism = {
                 name = "棱镜",
@@ -758,11 +881,12 @@ return {
                     " ",
                     "{s:1.5,C:attention,E:2}致谢",
                     "{C:dark_edition,E:2}SuperMao{} 与 {C:dark_edition,E:2}VisJoker{} - 中文本地化",
-                    "{C:dark_edition,E:2}Franderman123{} - 西班牙语本地化",
+                    "{C:dark_edition,E:2}Franderman123{} 与 {C:dark_edition,E:2}Marffe{} - 西班牙语本地化",
                     "{C:dark_edition,E:2}Shinosan{} - 越南语本地化",
+                    "{C:dark_edition,E:2}Alexandria Thurnherr{}, {C:dark_edition,E:2}juno_r1{} 与 {C:dark_edition,E:2}others{} - 法语本地化",
                     " ",
                     "{s:1.5,C:attention,E:2}我的其他模组",
-                    "{C:dark_edition}Unjankify{}, {C:dark_edition}Prism Darkside{}, {C:dark_edition}Resurgence{}" ,
+                    "{C:dark_edition}Unjankify{}, {C:dark_edition}Prism Darkside{}, {C:dark_edition}Resurgence{}",
                 }
             }
         },
@@ -774,7 +898,7 @@ return {
         },
         dictionary = {
             k_myth = "神话卡",
-            b_myth_cards = "神话卡组",
+            b_myth_cards = "神话牌",
             k_stone = "石化",
             k_edition_ex = "版本",
             k_promoted = "晋升！",
@@ -788,20 +912,26 @@ return {
             k_inactive_ex = "已失效！",
             k_another_card = "另一张牌",
             k_of = "的",
+            k_tied = "系紧",
             k_sunset = "日暮",
             k_sunrise = "破晓",
+            k_blahaj = "标签：3",
             prism_create = "祈愿",
             prism_cancel = "取消",
             prism_enter_card = "卡牌定位",
             prism_invalid_card = "无效卡牌！",
             prism_switch = "切换",
             prism_jokers_enabled = "启用小丑牌",
-            prism_myth_enabled = "启用神话卡", 
-            prism_blinds_enabled = "启用BOSS盲注",
+            prism_myth_enabled = "启用神话卡",
+            prism_enhance_enabled = "启用增强",
+            prism_blinds_enabled = "启用Boss盲注",
             prism_legacy_green = "使用旧绿色蜡封",
+            prism_allow_neg_copy = "可复制负片牌",
             prism_feature_enable = "选择要启用的功能：",
             prism_pizza_music = "披萨音乐",
             prism_requires_restart = "需要重启游戏！",
+            prism_blind = "盲注",
+            prism_boss = "Boss盲注",
             b_open_link = "在浏览器中打开",
         },
         v_dictionary = {
@@ -812,8 +942,40 @@ return {
         labels = {
             prism_green_seal = "绿色蜡封",
             prism_green_old_seal = "绿色蜡封",
-            prism_moon_seal = "月之印记",
+            prism_moon_seal = "月面蜡封",
             prism_gold_foil = "镀金",
+        },
+        quips = {
+            --blahaj
+            pnr_prism_blahaj_1={
+                "我们可以",
+                "这个盆友 :3"
+            },
+            pnr_prism_blahaj_2={
+                "fdghhjhjhg 这个盲人",
+                "这么大！但我们可以",
+                "一起做到 :3"
+            },
+            pnr_prism_blahaj_3={
+                ">33: 好运"
+            },
+
+            --scopa
+            pnr_prism_scopa_1={
+                "老兄，这都",
+                "什么烂牌啊？！"
+            },
+            pnr_prism_scopa_2={
+                "这局寄了",
+            },
+            pnr_prism_scopa_3={
+                "手里还有大牌吗？",
+                "没有我就随便垫了",
+            },
+            pnr_prism_scopa_4={
+                "这一把稳了",
+                "我们有王牌"
+            },
         }
     }
 }
