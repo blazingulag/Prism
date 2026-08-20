@@ -99,7 +99,7 @@ SMODS.load_file('objects/decks.lua')()
 SMODS.load_file('objects/tags.lua')()
 if G.PRISM.config.blinds_enabled then SMODS.load_file('objects/blinds.lua')() end
 SMODS.load_file('objects/challenges.lua')()
-SMODS.load_file('objects/stakes.lua')()
+if G.PRISM.config.stakes_enabled then SMODS.load_file('objects/stakes.lua')() end
 if G.PRISM.compat.sleeves then SMODS.load_file('objects/cardsleeves.lua')() end
 if G.PRISM.compat.partner then SMODS.load_file('objects/partners.lua')() end
 
@@ -317,6 +317,12 @@ SMODS.current_mod.config_tab = function()
 					ref_table = G.PRISM.config,
 					ref_value = 'blinds_enabled',
 					callback = should_restart
+				},
+				create_toggle {
+				  label = localize('prism_stakes_enabled'),
+				  ref_table = G.PRISM.config,
+				  ref_value = 'stakes_enabled',
+				  callback = should_restart
 				},
 			  }
 			},

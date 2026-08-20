@@ -239,7 +239,7 @@ return {
                     "luego de puntuar"
                 },
             },
-             j_prism_patch = {
+            j_prism_patch = {
                 name = "Parche Málevolo",
                 text = {
                     "Crea una {C:dark_edition}Etiqueta",
@@ -247,7 +247,7 @@ return {
                     "jugada anota tres {C:attention}6",
                 },
             },
-             j_prism_day = {
+            j_prism_day = {
                 name = "Día",
                 text = {
                     "Reactiva la mano jugada",
@@ -256,7 +256,7 @@ return {
                     "se transforma en {C:attention}Noche"
                 },
             },
-             j_prism_night = {
+            j_prism_night = {
                 name = "Noche",
                 text = {
                     "Reactiva la mano jugada",
@@ -265,7 +265,7 @@ return {
                     "se transforma en {C:attention}Día"
                 },
             },
-             j_prism_metalhead = {
+            j_prism_metalhead = {
                 name = "Metalero",
                 text = {
                     "Las {C:attention}Cartas de piedra{}",
@@ -288,14 +288,14 @@ return {
                     "que anotó en esta mano"
                 },
             },
-             j_prism_hypercube = {
+            j_prism_hypercube = {
                 name = "Hipercubo",
                 text = {"{X:dark_edition,C:white}^#1#{} Multi si",
                     "tienes un {C:attention}Póker{}",
                     "en tu mano"
                 },
             },
-             j_prism_pizza_cap = {
+            j_prism_pizza_cap = {
                 name = "Pizza Capricciosa",
                 text = {
                     "Las próximas {C:attention}#2#{} {C:spades}Espadas{}",
@@ -403,7 +403,24 @@ return {
                     "{C:attention}única{} usada esta apuesta",
                     "{C:inactive,s:0.8}(Actualmente {C:attention,s:0.8}#1#{C:inactive,s:0.8} Cartas de Planetas)"
                 },
-            }
+            },
+            j_prism_monkey_paw = {
+                name = "Palma de Mono",
+                text = {
+                    "Después de derrotar la {C:attention}Ciega Jefe{},",
+                    "puedes {C:dark_edition}desear{} cualquier",
+                    "carta {C:spectral}Espectral{}, pero pierdes",
+                    "{C:red}#1#{} al tamaño de mano",
+                    "{C:inactive}(Debe haber espacio)"
+                }
+            },
+            j_prism_scale = {
+                name = "Balanza",
+                text = {"{C:chips}+#1#{} Fichas por comodín a la {C:attention}derecha",
+                    "{C:red}+#2#{} Multi por comodín a la {C:attention}izquierda",
+                    "{C:inactive,s:0.8}(Actualmente {C:chips,s:0.8}+#3#{C:inactive,s:0.8} Fcihas y {C:red,s:0.8}+#4#{C:inactive,s:0.8} Multi)"
+                }
+            },
         },
         Back = {
             b_prism_purple = {
@@ -431,9 +448,17 @@ return {
                     "y {C:attention,T:v_overstock_norm}Excedente{}"
                 },
             },
+            b_prism_alchemy = {
+                name = "Baraja de Alquimista",
+                text = {
+                    "Todas las {C:money}Tiendas{} tienen",
+                    "un {C:myth_light,T:c_prism_myth_opus}Magnum Opus{}",
+                    "{C:attention}adicional",
+                },
+            },
         },
-         Sleeve = {
-             sleeve_prism_purplesleeve = {
+        Sleeve = {
+            sleeve_prism_purplesleeve = {
                 name = "Funda púrpura",
                 text = {
                     "Puedes usar {C:chips}manos{} y",
@@ -442,7 +467,7 @@ return {
                     "{C:inactive}si ya no quedan descartes y viceversa)"
                 },  
             },
-             sleeve_prism_purplesleeve_alt = {
+            sleeve_prism_purplesleeve_alt = {
                 name = "Funda Púrpura",
                 text = {
                     "{C:attention}+1{} de tamaño de mano",
@@ -476,6 +501,21 @@ return {
                 text = {
                     "Comienza la partida con",
                     "{C:attention,T:v_prism_booster_box}Caja de potenciadores{}"
+                },
+            },
+            sleeve_prism_alchemysleeve = {
+                name = "Funda de Alquimista",
+                text = {
+                    "Todas las {C:money}Tiendas{} tienen",
+                    "un {C:myth_light,T:c_prism_myth_opus}Magnum Opus{}",
+                    "{C:attention}adicional",
+                },
+            },
+            sleeve_prism_alchemysleeve_alt = {
+                name = "Funda de Alquimista",
+                text = {
+                    "Comienzas con el vale",
+                    "{C:tarot,T:v_crystal_ball}Bola de Cristal{}"
                 },
             },
         },
@@ -512,7 +552,7 @@ return {
                 }
             },
         },
-         Edition = {
+        Edition = {
             e_prism_gold_foil = {
                 name = "Laminado Dorado",
                 text = {
@@ -632,7 +672,7 @@ return {
                     "carta del {C:attention}extremo derecho{}",
                 }
             },
-             c_prism_myth_egg = {
+            c_prism_myth_egg = {
                 name = "Huevo Dorado",
                 text = {
                     "Pierdes {C:money}$#3#{} por tener",
@@ -650,6 +690,21 @@ return {
                     "{C:attention}#2# veces{} sus {C:chips}Fichas{} base",
                     "a las cartas adyacentes"
                 },
+            },
+            c_prism_myth_fae = {
+                name = "Hada",
+                text = {"Ganas {C:money}$#1#{} por cada {C:planet}nivel",
+                    "en tu mano de {C:attention}póker{}",
+                    "de nivel más alto {C:inactive}(Max. {C:money}$#2#{C:inactive})",
+                    "{C:inactive,s:0.8}(Actualmente {C:money,s:0.8}$#3#{C:inactive,s:0.8})",
+                }
+            },
+            c_prism_myth_opus = {
+                name = "Magnum Opus",
+                text = {"Mejora {C:attention}#1#{} carta",
+                    "selecciona con la {C:enhanced}mejora{}",
+                    "{C:attention}más común{} de tu baraja"
+                }
             },
         },
         Spectral = {
@@ -674,7 +729,7 @@ return {
             v_prism_myth_tycoon = {
                 name = "Magnate de mitos",
                 text = {
-                   "Las cartas de {C:myth_light} Mito{} aparecen",
+                    "Las cartas de {C:myth_light} Mito{} aparecen",
                     "{C:attention}4 X{} veces mas seguido",
                     "en la tienda",
                 },
@@ -704,7 +759,7 @@ return {
                     "{C:myth_light}Mega Paquete Legendario",
                 },
             },
-              tag_prism_gold_foil = {
+            tag_prism_gold_foil = {
                 name = "Etiqueta de Laminado Dorado",
                 text = {
                     "El Próximo Comodín {C:attention}compatible{} ",
@@ -720,7 +775,7 @@ return {
                 },
             },
         },
-         Stake = {
+        Stake = {
             stake_prism_platinum = {
                 name = "Pozo de Platino",
                 text = {
@@ -774,29 +829,29 @@ return {
             p_prism_small_myth_1 = {
                 name = "Paquete Legendario",
                 text = {
-                   "Elige {C:attention}#1#{} de hasta",
-                   "cartas de {C:attention}#2#{} de {C:myth_light}Leyenda{}",
+                    "Elige {C:attention}#1#{} de hasta",
+                    "cartas de {C:attention}#2#{} de {C:myth_light}Leyenda{}",
                 },
             },
             p_prism_small_myth_2 = {
                 name = "Paquete Legendario",
                 text = {
-                   "Elige {C:attention}#1#{} de hasta",
-                   "cartas de {C:attention}#2#{} de {C:myth_light}Leyenda{}",
+                    "Elige {C:attention}#1#{} de hasta",
+                    "cartas de {C:attention}#2#{} de {C:myth_light}Leyenda{}",
                 },
             },
             p_prism_mid_myth = {
                 name = "{s:0.9}Paquete Legendario Jumbo",
                 text = {
-                   "Elige {C:attention}#1#{} de hasta",
-                   "cartas de {C:attention}#2#{} de {C:myth_light}Leyenda{}",
+                    "Elige {C:attention}#1#{} de hasta",
+                    "cartas de {C:attention}#2#{} de {C:myth_light}Leyenda{}",
                 },
             },
             p_prism_large_myth = {
                 name = "{s:0.9}Mega Paquete Legendario",
                 text = {
-                   "Elige {C:attention}#1#{} de hasta",
-                   "cartas de {C:attention}#2#{} de {C:myth_light}Leyenda{}",
+                    "Elige {C:attention}#1#{} de hasta",
+                    "cartas de {C:attention}#2#{} de {C:myth_light}Leyenda{}",
                 },
             },
             prism_green_seal = {
@@ -819,12 +874,12 @@ return {
                 name = "Sello Lunar",
                 text = {
                     "Prob. de {C:green}#1# en #2#{}",
-                    "de {C:planet}nivel{} la mano",
-                    "jugada antes de {C:attention}anotar",
+                    "de {C:planet}nivel{} la mano jugada",
+                    "antes de {C:attention}anotar",
                 },
             },
             card_extra_mult = {
-                text={"{C:mult}+#1#{} Multi extra"}
+                text={"{C:mult}#1#{} Multi extra"}
             },
             prism_platinum_sticker={
                 name="Sticker de platino",
@@ -888,8 +943,11 @@ return {
             prism_switch = "Switch",
             prism_jokers_enabled = "Activar Comodines",
             prism_myth_enabled = "Activar cartas de Leyenda",
+            prism_enhance_enabled = "Activar Mejoras",
             prism_blinds_enabled = "Activar Ciegas",
-            prism_legacy_green = "Usar antiguo sello verde",
+            prism_stakes_enabled = "Activar Pozo",
+            prism_allow_neg_copy = "Permitir copiar edición negativa",
+            prism_legacy_green = "Usar sello verde antiguo",
             prism_feature_enable = "Selecciona tus características:",
             prism_pizza_music = "Música de pizza",
             prism_requires_restart = "Requiere un reinicio!",
